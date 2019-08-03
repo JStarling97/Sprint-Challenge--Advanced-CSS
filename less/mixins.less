@@ -10,8 +10,16 @@
 	background-clip:         padding-box;
 }
 
-.opacity (@opacity: 0.8) {
+.opacity (@opacity: 0.9) {
 	-webkit-opacity: 	@opacity;
 	-moz-opacity: 		@opacity;
 	opacity: 		@opacity;
 }
+
+.transition (@transition: 10ms) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+}
+
